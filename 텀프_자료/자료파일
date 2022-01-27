@@ -1,0 +1,48 @@
+공공 데이터 포털
+https://www.data.go.kr/data/15013111/standard.do
+
+웹 페이지 구성 및 디자인 참고서
+https://amaze9001.tistory.com/71
+
+코로나 안전지수 확인 앱
+https://safecaster.co.kr/risk-degree/zipCd/17731?title=JUVEJThGJTg5JUVEJTgzJTlEJUVDJTlFJUE1JUVDJTk1JTg4JUVCJUE3JTg4JUVDJTlEJTg0JUVDJUJEJTk0JUVDJTk4JUE0JUVCJUExJUIxJUVEJTk1JTk4JUVCJThBJTk4JUVDJUIxJTg0&siDo=JUVBJUIyJUJEJUVBJUI4JUIwJUVCJThGJTg0&siGunGu=JUVEJThGJTg5JUVEJTgzJTlEJUVDJThCJTlD&dong=JUVDJTlFJUE1JUVDJTk1JTg4JUVCJThGJTk5&doroName=JUVDJUI2JTk0JUVCJThCJUI0JUVCJUExJTlD&buildingOrgNum=58&buildingSubNum=78&buildingName=JUVEJThGJTg5JUVEJTgzJTlEJUVDJTlFJUE1JUVDJTk1JTg4JUVCJUE3JTg4JUVDJTlEJTg0JUVDJUJEJTk0JUVDJTk4JUE0JUVCJUExJUIxJUVEJTk1JTk4JUVCJThBJTk4JUVDJUIxJTg0&all=&lat=37.05905&lon=127.079034
+
+
+
+웹 레이아웃 참고서
+https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=c1ecd92e-f3c1-4497-bdef-380a367a3f28&big_category=A01&mid_category=A0101&big_area=34
+
+폰트어썸 아이콘 모음집
+https://fontawesome.com/v5.15/icons/stumbleupon-circle?style=brands
+
+
+-- 폰트
+
+작은 폰트 : fa-xs
+
+중간 폰트 : fa-sm
+
+큰 폰트 : fa-lg
+
+fa-2x 부터 큰숫자를 붙여서 폰트어썸 크기를 조절할 수 있습니다.
+
+
+--밑줄 효과
+출처: https://goodsoook.tistory.com/29 [🍒망고츄츄]
+
+hr 태그의 속성은 다음과 같습니다.
+
+size : 태그의 굵기를 설정한다.
+
+width : 태그의 가로 길이를 설정한다.
+
+align : 태그의 정렬값을 설정한다. left, center, right
+
+color : 태그의 색상을 설정한다.
+
+noshade : 입체감을 없애고 평평한? 상태로 보여준다.
+
+
+
+출처: https://cofs.tistory.com/123 [CofS]
+

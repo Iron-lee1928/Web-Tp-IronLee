@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  color: white;
+  height: 620px;
+  width: 100%;
+  background-image: url("https://t1.daumcdn.net/cfile/tistory/2356B23F53644F8314");
+  background-size: cover;
+  /*background-size: cover; <<제거 ! 백그라운드 이미지 2안 */
+}
+.header h1 {
+  font-size: 50px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ccf09e;
+}
+.topnav sup {
+  transition: font-size 1s;
+}
+.topnav sup hover {
+  font-size: 100%;
+}
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #424242;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* 마우스를 대면 폰트컬러 백그라운드 컬러 변경 설정 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* 왼쪽 열  메인 */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+/* 오른쪽 열 사이드바  */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* Fake image */
+.fakeimg {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: wheat;
+  margin-top: 10px;
+  background-color: rgb(247, 247, 147);
+  width: 100%;
+  padding: 20px;
+}
+.main_img_1 {
+  background-color: white;
+  width: 60%;
+  height: 529px;
+  padding: 20px;
+  background-image: url("/Users/igangcheol/Desktop/무제/Web-Tp-IronLee/img/웅도 이미지/1da07dcb-e699-4ce5-895b-8bd76ce2ffe0.jpeg");
+  background-size: 100% 100%;
+}
+.main_img_2 {
+  background-color: white;
+  width: 60%;
+  height: 550px;
+  padding: 20px;
+  background-image: url("/Users/igangcheol/Desktop/무제/Web-Tp-IronLee/img/intrto2.JPG");
+  background-size: 100% 100%;
+}
+.searchArea {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  border: solid 2px rgb(136, 194, 248);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+/* 스크린 가로 너비가 800 px 이상일떄 적용 */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* 스크린 가로 너비가 400px 이상일 떄 적용 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* 애니메이션 모음 */
+
+@keyframes bomb {
+  0% {
+    font-size: 150%;
+  }
+  50% {
+    font-size: 100%;
+  }
+  100% {
+    font-size: 150%;
+  }
+}
+#chack strong {
+  animation-name: bomb;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color_iron {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 10;
+  }
+}
+
+#opacity_iron {
+  animation-name: color_iron;
+  animation-duration: 5s;
+  animation-iteration-count: inherit;
+}
+
+@keyframes color_iron {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 10;
+  }
+}
+
+.leftcolumn_상세정보 {
+  animation-name: color_iron;
+  animation-duration: 4s;
+  animation-iteration-count: inherit;
+}
+
+@keyframes iron {
+  0% {
+    color: lightgreen;
+  }
+  30% {
+    color: lightcoral;
+  }
+  100% {
+    color: mediumblue;
+  }
+}
+
+#login_nav {
+  animation-name: iron;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bo {
+  0% {
+    font-size: 100%;
+  }
+  50% {
+    font-size: 130%;
+  }
+  100% {
+    font-size: 100%;
+  }
+}
+#right_icon {
+  animation-name: bo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.footer h2 {
+  display: none;
+}
+.footer {
+  background-color: rgb(47, 166, 235);
+}
